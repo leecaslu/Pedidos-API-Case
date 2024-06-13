@@ -1,0 +1,14 @@
+{
+  "name": "pedidos-lucas-lee",
+  "version": "1.0.0",
+  "description": "Case para vaga de Integrations Engineer em Jitterbits",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Lee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
