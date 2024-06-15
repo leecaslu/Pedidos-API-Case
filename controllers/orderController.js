@@ -1,6 +1,9 @@
-// Definindo os diferentes controllers para cada rota
+// Importando o modelo de Order
+const Order = request('../models/orderModel')
 
-exports.createOrderController = (req, res) => { };
+// Definindo os diferentes controllers para cada rota
+exports.createOrderController = async (req, res) => {
+};
 
 exports.getOrderController = (req, res) => { };
 
