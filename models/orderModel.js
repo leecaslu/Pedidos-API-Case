@@ -3,29 +3,26 @@ const mongoose = require('mongoose')
 
 // criando o Schema de Order
 const orderSchema = new mongoose.Schema({
-  orderId: {
+  numeroPedido: {
     type: String,
     required: true,
-    unique: [true, 'An order with this Id already exists']
+    unique: true
 
   },
-  value: {
+  valorTotal: {
     type: Number,
-    required: true,
   },
-  creationDate: Date,
+  dataCriacao: Date,
   items: [{
-    productId: {
+    idItem: {
       type: Number,
-      required: true,
-      unique: true
     },
-    quantity: {
+    quantidadeItem: {
       type: Number,
       required: true
     },
-    price: {
-      type: NUmber,
+    valorItem: {
+      type: Number,
       required: true
 
     },
